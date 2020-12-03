@@ -1,0 +1,16 @@
+[data-component="slideshow"] .slide {
+    display: none;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
+  html, body {
+    height: 100%;
+  }
+  .slide img{
+      width: 100% !important;
+      height: 930px !important;
+      margin: 0;
+  }
+   
