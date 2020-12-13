@@ -18,7 +18,7 @@
       margin: 0;
   }
   .welcome{
-    background-color: black;
+    background-image: url("img/1");
   }
   .container-fluid {
     position: relative;
@@ -31,7 +31,7 @@
     position: absolute;
     bottom: 30px;
     left: 80px;
-    color:darkorange;
+    color:#ffcc00;
   }
   
   .top-left {
@@ -42,12 +42,12 @@
     
   }
   #hirwa{
-    color:orange;
+    color:#ffcc00;
     font-size: 70px;
     font-weight: 900 !important;
   }
   #hirwa1{
-    color:darkorange;
+    color:#ffcc00;
     font-size: 16px;
     width: 30px !important;
     margin-left: 90px !important;
@@ -58,7 +58,7 @@
     position: absolute;
     top: 30px;
     right: 80px;
-    color:darkorange;
+    color:#ffcc00;
   }
   .vertical-menu {
     width: 100px;
@@ -68,7 +68,7 @@
   
   .vertical-menu a {
     /* background-color: #eee; */
-    color:darkorange;
+    color:#ffcc00;
     display: block;
     text-align: end;
     padding-top: 10px;
@@ -81,12 +81,12 @@
     color: white;
   }
   .middle{
-    color:darkorange;
+    color:#ffcc00;
     font-size: 16px;
     margin-top: 200px;
   }
   .vertical-menu a.active {
-    background-color: orange;
+    background-color: #ffcc00;
     border-radius: 40%;
     width: 100px;
     padding-left: 10px;
@@ -112,18 +112,18 @@
   .centered {
     position: absolute;
     font-size: 25px !important;
-    border: coral solid;
+    border: #ffcc00 solid;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 18px;
     padding-left: 18px;
-    color:orange;
+    color:#ffcc00;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .activity{
-    background-color:#894b00;
+    background-color:#001a33;
     height: 700px;
     padding-top: 100px;
     
@@ -131,19 +131,24 @@
   .activity p{
     font-size: 1.5em;
     font-weight: 300;
+    color: white;
     
   }
   .activity1{
     padding-top: 40px;
     text-align: center;
+    color: #ffcc00;
+  }
+  .activity1 .col-sm p{
+    color: #ffcc00;
   }
   .activity1 h1{
     font-size: 50px;
     font-weight: 900;
   }
   .activity2{
-    background-color:#3d3d3d;
-    height: 550px;
+    background-color:#00334d;
+    height: 670px;
     padding-top: 60px;
   }
   .activity2 .row{
@@ -154,8 +159,12 @@
     color: white;
     width: 700px;
     border: none;
-    background-color: #3d3d3d;
+    background-color: #00334d;
     
+  }
+  .activity2 .card-title{
+    color: #ffcc00 !important;
+    font-size: 5em !important;
   }
   .activity2 ul {
     columns: 2;
@@ -164,7 +173,7 @@
     font-size: 1.4em;
   }
   .btn{
-    background-color: darkorange !important ;
+    background-color: #ffcc00 !important ;
     border-radius: 5% !important;
    padding-left: 40px !important;
    padding-right: 40px !important;
